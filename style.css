@@ -1,0 +1,61 @@
+/*
+css = cascade style sheets 
+    even if you have one line of code, it is the same comment 
+*/
+/* selector section or tag section 
+    Typically, your css flows the same way if your html
+    HTML - h1, nav, p, footer
+*/
+body{
+    background-color: #b84ebc;
+    color: #7d2171;
+    font-family: Verdana, Arial, sans-serif;
+}
+header{
+    background-image: url("images/lilyheader.jpg");
+    background-color:#c4629e;
+    background-size: 100% 100%;
+    height:150px;
+    text-align: center;
+}
+h1{
+    line-height: 200%;
+}
+h2{
+    font-size: 200%;
+}
+nav{
+    text-align: center; 
+    font-weight: bold;
+}
+footer{
+    background-color: #a9549d;
+    font-size: .6em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+img{
+    padding-left: iem;
+    padding-right: iem;
+}
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    display:block;
+}
+/* class section */
+.studio{  /* class for the name of the studio */
+    color:#7d2171;
+    font-style: Helvetica;
+}
+
+/* id section */
+#wrapper{   
+    margin-right: auto;
+    margin-left: auto;  /*Will help center the text on the screen*/
+    width:80%;
+    background-color: #c4629e;
+    min-width: 1000px;
+    max-width: 1280px;
+}
